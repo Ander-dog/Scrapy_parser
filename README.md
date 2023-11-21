@@ -19,9 +19,17 @@ Cоздать и активировать виртуальное окружен�
 python3 -m venv venv
 ```
 
-```
-source venv/bin/activate
-```
+* Если у вас Linux/macOS
+
+    ```
+    source venv/bin/activate
+    ```
+
+* Если у вас windows
+
+    ```
+    source venv/scripts/activate
+    ```
 
 Установить зависимости из файла requirements.txt:
 
